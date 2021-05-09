@@ -18,7 +18,7 @@ const Footer = () => {
                      </div>
                      <div class="col-xl-2 col-md-4 col-sm-4 col-12">
                          <h6 class="mb-3 mb-lg-4 text-muted bold-text mt-sm-0 mt-5"><b>ADDRESS</b></h6>
-                         <p class="mb-1">417/16 BAHADURGARH</p>
+                         <p class="mb-1">417/16, jatwara mohalla -  BAHADURGARH</p>
                          <p>HARYANA</p>
                      </div>
                  </div>
