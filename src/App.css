@@ -13,6 +13,11 @@
   }
 }
 
+.navibar{
+  background-color: #000000;
+background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,4 +40,89 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+body {
+    font-family: 'Rubik', sans-serif;
+    height: 100 !important
+}
+
+.sidebar {
+  background-color :#20bf55;
+background-image :linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+}
+.container-fluid {
+    overflow: hidden;
+    background-color: #a55c1b;
+background-image: linear-gradient(315deg, #a55c1b 0%, #000000 74%);
+    color: #627482 !important;
+    margin-bottom: 0;
+    padding-bottom: 0
+}
+
+small {
+    font-size: calc(12px + (15 - 12) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+.bold-text {
+    color: #989c9e !important
+}
+
+.mt-55 {
+    margin-top: calc(50px + (60 - 50) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+h3 {
+    font-size: calc(34px + (40 - 34) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+.social {
+    font-size: 21px !important
+}
+
+.rights {
+    font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+.quote{
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #f2cf43;
+background-image: linear-gradient(315deg, #f2cf43 0%, #19a186 74%);
+}
+
+p{
+  margin:0px;
+  padding:0.3em
+}
+.formContainer{
+  background-color: #f2cf43;
+  border-radius: 4em;
+  padding:2em;
+background-image: linear-gradient(315deg, #f2cf43 0%, #19a186 74%);
+}
+
+.blueBackground{
+  box-shadow: -1px 0px 15px -4px rgba(0,25,255,1);
+-webkit-box-shadow: -1px 0px 15px -4px rgba(0,25,255,1);
+-moz-box-shadow: -1px 0px 15px -4px rgba(0,25,255,1);
+  background-color: #045de9;
+background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
+}
+
+.cardEstimation {
+  box-shadow: -1px 0px 15px -4px rgba(202,227,226,0.75);
+-webkit-box-shadow: -1px 0px 15px -4px rgba(202,227,226,0.75);
+-moz-box-shadow: -1px 0px 15px -4px rgba(202,227,226,0.75);
+  border-radius: 4em;
+  padding:2em;
+  background-color: #f1dfd1;
+  background-image: linear-gradient(315deg, #f1dfd1 0%, #f6f0ea 74%);
+
+}
+
+Nav.Link{
+  
+  color:white
 }
